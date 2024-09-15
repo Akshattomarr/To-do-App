@@ -27,3 +27,44 @@ This project is a Task Management App that interacts with the Dummy JSON API to 
 ```bash
 git clone https://github.com/Akshattomarr/To-do-App.git
 cd To-do-App
+Step 2: Navigate to the Project Directory
+Move into the project folder using the following command:
+
+bash
+Copy code
+cd To-do-App
+Step 3: Install Dependencies
+After navigating to the project folder, install all necessary project dependencies using the following command:
+
+bash
+Copy code
+npm install
+This will install all the required dependencies listed in package.json.
+
+Step 4: Start the Development Server
+Now, start the development server using:
+
+bash
+Copy code
+npm start
+This will run the app in development mode. The app should automatically open in your default browser at:
+
+bash
+Copy code
+http://localhost:3000
+If the app doesn’t open automatically, you can manually visit http://localhost:3000 in your browser.
+
+Step 5: Build the Application (Optional)
+If you want to create an optimized production build, you can run:
+
+bash
+Copy code
+npm run build
+The build is created in the build/ directory, optimized for production.
+
+Step 6: Test PWA Features
+To test the PWA features like offline capability, you need to serve the production build. You can use the serve package to do so:
+
+bash
+Copy code
+npx serve -s build
